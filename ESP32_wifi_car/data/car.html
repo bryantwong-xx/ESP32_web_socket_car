@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<title>ESP32 wifi car</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" herf="data:,">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+  <h1>ESP32 wifi car</h1>
+  
+  <div class="container" style="margin-left: 0px">
+
+    <br><br><br><br><br><br><br><br>
+    <input class="range vertical" type="range" min="0" max="60" value="30" id="ForwardAndBackwardRange" oninput="sendFandBDirection(this.value)">
+    <br><br><br><br><br><br><br><br><br>
+
+  </div>
+
+
+  <div class="container" style="margin-right: 0px">
+
+    <br><br><br><br><br><br><br><br>
+    <input class="range horizontal" type="range" min="0" max="60" value="30" id="LeftAndRightRange" oninput="sendLeftAndRight(this.value)">
+    <br><br><br><br><br><br>
+
+
+  </div>
+  <script src="main.js"></script>
+  </body>
+  </html>

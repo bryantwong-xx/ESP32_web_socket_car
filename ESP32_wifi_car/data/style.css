@@ -1,0 +1,87 @@
+
+html{
+font-family: Helvetica;
+display: inline-block;
+margin: 0px auto;
+text-align: center;
+}
+h1{
+color: #0F3376;
+padding: 2vh;
+}
+p{
+font-size:1.5rem;
+}
+.container{
+
+
+  margin: 160px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+
+}
+
+
+ input[type=range].range{
+
+  -webkit-appearance: none;
+  width: 300px;
+}
+/* input[type=range].range {
+    cursor: pointer;
+    width: 200px !important;
+    -webkit-appearance: none;
+    z-index: 200;
+    width: 50px;
+
+    background-color: #d3d3d3;
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(#d2d2d2));
+    background-image: -webkit-linear-gradient(right, #e6e6e6, #d2d2d2);
+    background-image: -moz-linear-gradient(right, #e6e6e6, #d2d2d2);
+    background-image: -ms-linear-gradient(right, #e6e6e6, #d2d2d2);
+    background-image: -o-linear-gradient(right, #e6e6e6, #d2d2d2) } */
+
+
+input[type=range].range:focus {
+    border: 0 !important;
+    outline: 0 !important
+}
+  input[type=range].range::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+
+    height: 5px;
+    background: #d3d3d3;
+    border: none;
+    border-radius: 3px;
+  }
+
+input[type=range].range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ab194f;
+    margin-top: -13px;
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4ddbff), to(#c41d70));
+    background-image: -webkit-linear-gradient(right, #4ddbff, #c41d70);
+    background-image: -moz-linear-gradient(right, #4ddbff, #c41d70);
+    background-image: -ms-linear-gradient(right, #4ddbff, #c41d70);
+    background-image: -o-linear-gradient(right, #4ddbff, #c41d70) */
+}
+
+.vertical {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.horizontal {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
